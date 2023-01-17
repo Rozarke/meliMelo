@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+      
+      </style>
+      
+  </head>
+  <body>
+    <h1>MAKE YOUR OWN CHARACTER</h1>
+    <div class="images">
+      <img id="head" src="head1.png" onclick="changeImage(this)" />
+      <img id="body" src="body1.png" onclick="changeImage(this)" />
+      <img id="bottom" src="bottom1.png" onclick="changeImage(this)" />
+  
+
+    <script>
+      function changeImage(image) {
+        if (image.src.match("head1.png")) {
+          image.src = "head2.png";
+        } else if (image.src.match("head2.png")) {
+          image.src = "head3.png";
+        } else if (image.src.match("head2.png")) {
+          image.src = "head3.png";
+        } else if (image.src.match("head3.png")) {
+          image.src = "head4.png";
+        } else if (image.src.match("head4.png")) {
+          image.src = "head5.png";
+        } else if (image.src.match("head5.png")) {
+          image.src = "head6.png";
+        } else if (image.src.match("head6.png")) {
+          image.src = "head1.png";
+        }
+        if (image.src.match("body1.png")) {
+          image.src = "body2.png";
+        } else if (image.src.match("body2.png")) {
+          image.src = "body3.png";
+        } else if (image.src.match("body3.png")) {
+          image.src = "body4.png";
+        } else if (image.src.match("body4.png")) {
+          image.src = "body5.png";
+        } else if (image.src.match("body5.png")) {
+          image.src = "body6.png";
+        } else if (image.src.match("body6.png")) {
+          image.src = "body1.png";
+        }
+        if (image.src.match("bottom1.png")) {
+          image.src = "bottom2.png";
+        } else if (image.src.match("bottom2.png")) {
+          image.src = "bottom3.png";
+        } else if (image.src.match("bottom3.png")) {
+          image.src = "bottom4.png";
+        } else if (image.src.match("bottom4.png")) {
+          image.src = "bottom5.png";
+        } else if (image.src.match("bottom5.png")) {
+          image.src = "bottom6.png";
+        } else if (image.src.match("bottom6.png")) {
+          image.src = "bottom1.png";
+        }
+      }
+    </script>
+       <div class="frame">
+      </div>
+  </body>
+</html>
